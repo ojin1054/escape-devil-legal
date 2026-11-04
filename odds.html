@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>상자 확률</title>
+<style>
+body { margin: 0 auto; max-width: 720px; padding: 24px 16px 48px; color: #222; background: #fff;
+  font: 16px/1.7 -apple-system, "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; }
+h1 { font-size: 24px; line-height: 1.4; }
+h2 { font-size: 18px; margin-top: 28px; }
+p, li { word-break: keep-all; overflow-wrap: anywhere; }
+ul { padding-left: 20px; }
+a { color: #1a5fb4; }
+table { width: 100%; border-collapse: collapse; margin: 8px 0 16px; }
+th, td { padding: 6px 8px; border-bottom: 1px solid #ddd; text-align: left; word-break: keep-all; }
+td.p, th.p { text-align: right; white-space: nowrap; }
+td.n, th.n { text-align: right; white-space: nowrap; }
+tr.g td { font-weight: bold; background: #f4f1f8; }
+tr.i td:first-child { padding-left: 24px; }
+</style>
+</head>
+<body>
+<h1>도망쳐, 마왕 상자 확률</h1>
+<p>개발자: Nexbit Studio · 게임 안에서는 상점의 각 상자에 있는 "확률" 버튼으로도 볼 수 있습니다.</p>
+<p>모든 상자는 보석으로 열며, 한 번 열 때마다 아래 확률로 하나가 나옵니다. 같은 등급 안의 항목은 모두 같은 확률입니다.</p>
+<h2>소환수 상자</h2>
+<p>1회 보석 300개 · 10회 보석 2,700개</p>
+<table><tr><th>등급·항목</th><th class="p">확률</th></tr><tr class="g"><td>일반</td><td class="p">55%</td></tr><tr class="i"><td>슬라임</td><td class="p">13.75%</td></tr><tr class="i"><td>박쥐 떼</td><td class="p">13.75%</td></tr><tr class="i"><td>화염 임프</td><td class="p">13.75%</td></tr><tr class="i"><td>독거미</td><td class="p">13.75%</td></tr><tr class="g"><td>희귀</td><td class="p">30%</td></tr><tr class="i"><td>오크 전사</td><td class="p">6%</td></tr><tr class="i"><td>서리 마녀</td><td class="p">6%</td></tr><tr class="i"><td>주술사</td><td class="p">6%</td></tr><tr class="i"><td>지옥 사냥개</td><td class="p">6%</td></tr><tr class="i"><td>외눈박이</td><td class="p">6%</td></tr><tr class="g"><td>영웅</td><td class="p">12%</td></tr><tr class="i"><td>골렘</td><td class="p">2.4%</td></tr><tr class="i"><td>미노타우로스</td><td class="p">2.4%</td></tr><tr class="i"><td>미믹</td><td class="p">2.4%</td></tr><tr class="i"><td>가고일</td><td class="p">2.4%</td></tr><tr class="i"><td>유령</td><td class="p">2.4%</td></tr><tr class="g"><td>전설</td><td class="p">3%</td></tr><tr class="i"><td>데스나이트</td><td class="p">1%</td></tr><tr class="i"><td>리치</td><td class="p">1%</td></tr><tr class="i"><td>새끼 드래곤</td><td class="p">1%</td></tr></table>
+<ul><li>10회 열기: 10개 중 희귀 이상이 하나도 없으면 마지막 하나를 희귀 등급으로 바꿉니다.</li><li>확정: 이 상자를 70번 열 때마다 그 70번째가 영웅 이상입니다. 영웅 미만이 나왔으면 영웅 등급으로 바꿉니다. 그 사이에 영웅 이상이 나와도 횟수는 이어서 셉니다. 횟수는 상자 종류마다 따로 셉니다.</li></ul>
+<h2>건설물 상자</h2>
+<p>1회 보석 200개 · 10회 보석 1,800개</p>
+<table><tr><th>등급·항목</th><th class="p">확률</th></tr><tr class="g"><td>일반</td><td class="p">65%</td></tr><tr class="i"><td>가시덫</td><td class="p">21.67%</td></tr><tr class="i"><td>나무 울타리</td><td class="p">21.67%</td></tr><tr class="i"><td>끈끈이 늪</td><td class="p">21.67%</td></tr><tr class="g"><td>희귀</td><td class="p">28%</td></tr><tr class="i"><td>마석 폭탄</td><td class="p">14%</td></tr><tr class="i"><td>악마석상</td><td class="p">14%</td></tr><tr class="g"><td>영웅</td><td class="p">7%</td></tr><tr class="i"><td>마왕 인형</td><td class="p">7%</td></tr></table>
+<ul><li>10회 열기: 10개 중 희귀 이상이 하나도 없으면 마지막 하나를 희귀 등급으로 바꿉니다.</li><li>확정: 이 상자를 70번 열 때마다 그 70번째가 희귀 이상입니다. 희귀 미만이 나왔으면 희귀 등급으로 바꿉니다. 그 사이에 희귀 이상이 나와도 횟수는 이어서 셉니다. 횟수는 상자 종류마다 따로 셉니다.</li></ul>
+<h2>무기 상자</h2>
+<p>1회 보석 200개 · 10회 보석 1,800개</p>
+<table><tr><th>등급·항목</th><th class="p">확률</th></tr><tr class="g"><td>일반</td><td class="p">50%</td></tr><tr class="i"><td>옹이 지팡이</td><td class="p">16.67%</td></tr><tr class="i"><td>견습 마도서</td><td class="p">16.67%</td></tr><tr class="i"><td>작은 마력핵</td><td class="p">16.67%</td></tr><tr class="g"><td>매직</td><td class="p">30%</td></tr><tr class="i"><td>푸른 샘</td><td class="p">10%</td></tr><tr class="i"><td>푸른 봉인</td><td class="p">10%</td></tr><tr class="i"><td>서리 달</td><td class="p">10%</td></tr><tr class="g"><td>레어</td><td class="p">15%</td></tr><tr class="i"><td>비취 가지</td><td class="p">5%</td></tr><tr class="i"><td>비취 금서</td><td class="p">5%</td></tr><tr class="i"><td>비취 심장</td><td class="p">5%</td></tr><tr class="g"><td>유니크</td><td class="p">4%</td></tr><tr class="i"><td>붉은 뿔</td><td class="p">1.33%</td></tr><tr class="i"><td>혈월의 서</td><td class="p">1.33%</td></tr><tr class="i"><td>핏빛 일식</td><td class="p">1.33%</td></tr><tr class="g"><td>전설</td><td class="p">1%</td></tr><tr class="i"><td>별의 왕관</td><td class="p">0.33%</td></tr><tr class="i"><td>마왕의 칙령</td><td class="p">0.33%</td></tr><tr class="i"><td>심연의 왕관</td><td class="p">0.33%</td></tr></table>
+<ul><li>10회 열기: 10개 중 매직 이상이 하나도 없으면 마지막 하나를 매직 등급으로 바꿉니다.</li><li>확정: 이 상자를 70번 열 때마다 그 70번째가 유니크 이상입니다. 유니크 미만이 나왔으면 유니크 등급으로 바꿉니다. 그 사이에 유니크 이상이 나와도 횟수는 이어서 셉니다. 횟수는 상자 종류마다 따로 셉니다.</li></ul>
+<h2>방어구 상자</h2>
+<p>1회 보석 200개 · 10회 보석 1,800개</p>
+<table><tr><th>등급·항목</th><th class="p">확률</th></tr><tr class="g"><td>일반</td><td class="p">50%</td></tr><tr class="i"><td>투구</td><td class="p">12.5%</td></tr><tr class="i"><td>갑옷</td><td class="p">12.5%</td></tr><tr class="i"><td>장갑</td><td class="p">12.5%</td></tr><tr class="i"><td>신발</td><td class="p">12.5%</td></tr><tr class="g"><td>매직</td><td class="p">30%</td></tr><tr class="i"><td>투구</td><td class="p">7.5%</td></tr><tr class="i"><td>갑옷</td><td class="p">7.5%</td></tr><tr class="i"><td>장갑</td><td class="p">7.5%</td></tr><tr class="i"><td>신발</td><td class="p">7.5%</td></tr><tr class="g"><td>레어</td><td class="p">15%</td></tr><tr class="i"><td>투구</td><td class="p">3.75%</td></tr><tr class="i"><td>갑옷</td><td class="p">3.75%</td></tr><tr class="i"><td>장갑</td><td class="p">3.75%</td></tr><tr class="i"><td>신발</td><td class="p">3.75%</td></tr><tr class="g"><td>유니크</td><td class="p">4%</td></tr><tr class="i"><td>투구</td><td class="p">1%</td></tr><tr class="i"><td>갑옷</td><td class="p">1%</td></tr><tr class="i"><td>장갑</td><td class="p">1%</td></tr><tr class="i"><td>신발</td><td class="p">1%</td></tr><tr class="g"><td>전설</td><td class="p">1%</td></tr><tr class="i"><td>투구</td><td class="p">0.25%</td></tr><tr class="i"><td>갑옷</td><td class="p">0.25%</td></tr><tr class="i"><td>장갑</td><td class="p">0.25%</td></tr><tr class="i"><td>신발</td><td class="p">0.25%</td></tr></table>
+<ul><li>10회 열기: 10개 중 매직 이상이 하나도 없으면 마지막 하나를 매직 등급으로 바꿉니다.</li><li>확정: 이 상자를 70번 열 때마다 그 70번째가 유니크 이상입니다. 유니크 미만이 나왔으면 유니크 등급으로 바꿉니다. 그 사이에 유니크 이상이 나와도 횟수는 이어서 셉니다. 횟수는 상자 종류마다 따로 셉니다.</li></ul>
+<h2>광고 장비 상자</h2>
+<p>상점에서 광고를 보고 하루 3번 받을 수 있습니다. 무기 상자와 방어구 상자 중 하나가 각각 50% 확률로 정해지고, 그 상자의 확률로 하나가 나옵니다. 확정 횟수에는 들어가지 않습니다.</p>
+<h2>장비 옵션</h2>
+<p>레어 이상의 무기와 방어구는 얻을 때 옵션 2개가 정해집니다. 부위마다 아래 3개 중 서로 다른 2개가 같은 확률로 붙습니다(조합 3가지가 각각 33.33%).</p>
+<table><tr><th>부위</th><th>옵션 후보</th></tr><tr><td>무기</td><td>공격 속도, 체력, 캐는 마석</td></tr><tr><td>투구</td><td>받는 피해, 공격력, 파는 속도</td></tr><tr><td>갑옷</td><td>체력, 공격력, 캐는 마석</td></tr><tr><td>장갑</td><td>공격 속도, 공격력, 캐는 마석</td></tr><tr><td>신발</td><td>받는 피해, 체력, 파는 속도</td></tr></table>
+<p>옵션 수치는 등급마다 아래 범위의 값 중 하나가 같은 확률로 정해집니다.</p>
+<table><tr><th>등급·옵션</th><th class="n">수치</th><th class="p">값마다</th></tr><tr class="g"><td colspan="3">레어</td></tr><tr class="i"><td>공격 속도, 체력, 캐는 마석, 공격력, 파는 속도</td><td class="n">4% ~ 8%<br>(1% 단위)</td><td class="p">20%</td></tr><tr class="i"><td>받는 피해</td><td class="n">2% ~ 4%<br>(0.5% 단위)</td><td class="p">20%</td></tr><tr class="g"><td colspan="3">유니크</td></tr><tr class="i"><td>공격 속도, 체력, 캐는 마석, 공격력, 파는 속도</td><td class="n">6% ~ 11%<br>(1% 단위)</td><td class="p">16.67%</td></tr><tr class="i"><td>받는 피해</td><td class="n">3% ~ 5.5%<br>(0.5% 단위)</td><td class="p">16.67%</td></tr><tr class="g"><td colspan="3">전설</td></tr><tr class="i"><td>공격 속도, 체력, 캐는 마석, 공격력, 파는 속도</td><td class="n">9% ~ 13%<br>(1% 단위)</td><td class="p">20%</td></tr><tr class="i"><td>받는 피해</td><td class="n">4.5% ~ 6.5%<br>(0.5% 단위)</td><td class="p">20%</td></tr></table>
+<p>장비의 모양은 능력치에 영향이 없습니다. 확률이 바뀌면 이 페이지와 게임 안 확률 창을 함께 고칩니다.</p>
+<p>문의: <a href="mailto:nexbitstudio59@gmail.com">nexbitstudio59@gmail.com</a></p>
+</body>
+</html>
